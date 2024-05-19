@@ -1,0 +1,119 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.movie-item {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.movie-item img {
+  max-height: 300px;
+}
+
+.movie-item button {
+  height: fit-content;
+}
+
+.movie-info {
+  margin-left: 1rem;
+  text-align: left;
+}
+
+.movie-info h2 {
+  margin-top: 0;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+input {
+  padding: 1rem;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+}
+
+label {
+  text-align: left;
+}
+
+.moviePoster {
+  max-height: 400px;
+}
+
+.movieDetails {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  gap: 1rem;
+}
+
+.movieDetails p {
+  padding: 0;
+  margin: 0;
+}
+
+.movieContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.movieRating {
+  display: flex;
+  flex-direction: row;
+}
+
+.movieRating button {
+  background-color: transparent;
+  border: none;
+  opacity: 0.6;
+  font-size: 2rem;
+}
+
+.movieRating button:hover {
+  cursor: pointer;
+}
+
+.movieRating .active {
+  opacity: 1;
+}
+
+.readMore {
+  background-color: rgb(173, 216, 230);
+  padding: 1rem;
+  border-radius: 0.25rem;
+  border: 1px solid lightcyan;
+  color: white;
+}
+.readMore:hover {
+  background-color: rgb(129, 198, 220);
+  cursor: pointer;
+}
+
+.submitReview {
+  background-color: rgb(12, 114, 12);
+  border-radius: 4px;
+  color: whitesmoke;
+  width: fit-content;
+  margin-top: 1rem;
+  padding: 1rem;
+  border: none;
+}
+
+.textArea {
+  border: 1px solid lightgray;
+
+  padding: 1rem;
+  border-radius: 4px;
+  min-height: 200px;
+  width: 100%;
+}
